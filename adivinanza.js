@@ -10,6 +10,7 @@ const verificarAdivinanza = (numeroSecreto, numeroAdivinado) => {
     console.log("El número secreto es mayor. ¡Sigue intentando!");
   }
 };
+
 module.exports = {
   generarNumeroAleatorio,
   verificarAdivinanza,
